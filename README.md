@@ -21,7 +21,7 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 <div id="paperlist"></div>
 
 * 📖[Trending Inference Topics](#Trending-Inference-Topics)🔥🔥🔥
-* 📖[KV Cache Compression](#LLM-KV-Cache-Compression)🔥🔥
+* 📖[KV Cache Compression](#KV-Cache-Compression)🔥🔥
 * 📖[KV Cache Merge](#KV-Cache-Merge)🔥🔥
 * 📖[Budget Allocation](#Budget-Allocation)🔥
 * 📖[Cross-Layer KV Cache Utilization](#Cross-Layer-KV-Cache-Utilization)🔥
@@ -35,14 +35,14 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|2024.05| 🔥🔥🔥[DeepSeek-V2] DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model(@DeepSeek-AI)|[[pdf]](https://arxiv.org/pdf/2405.04434) | [[DeepSeek-V2]](https://github.com/deepseek-ai/DeepSeek-V2) ![](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V2.svg?style=social)| ⭐️⭐️ | 
-|2024.05|🔥🔥[YOCO] You Only Cache Once: Decoder-Decoder Architectures for Language Models(@Microsoft)| [[pdf]](https://arxiv.org/pdf/2405.05254) | [[unilm-YOCO]](https://github.com/microsoft/unilm/tree/master/YOCO) ![](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social) |⭐️⭐️ |  
-|2024.06|🔥[**Mooncake**] Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving(@Moonshot AI) |[[pdf]](https://github.com/kvcache-ai/Mooncake/blob/main/Mooncake-v1.pdf) | [[Mooncake]](https://github.com/kvcache-ai/Mooncake) ![](https://img.shields.io/github/stars/kvcache-ai/Mooncake.svg?style=social)|⭐️⭐️ |    
-|2024.07|🔥🔥[**FlashAttention-3**] FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision(@TriDao etc) |[[pdf]](https://tridao.me/publications/flash3/flash3.pdf)|[[flash-attention]](https://github.com/Dao-AILab/flash-attention) ![](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social)|⭐️⭐️ |  
-|2024.07|🔥🔥[**MInference 1.0**] MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention(@Microsoft) |[[pdf]](https://arxiv.org/pdf/2407.02490)|[[MInference 1.0]](https://github.com/microsoft/MInference) ![](https://img.shields.io/github/stars/microsoft/MInference.svg?style=social)|⭐️⭐️ |
+|2024.05| 🔥🔥🔥[DeepSeek-V2] DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model(@DeepSeek-AI)|[[pdf]](https://arxiv.org/pdf/2405.04434) | [[DeepSeek-V2]](https://github.com/deepseek-ai/DeepSeek-V2) ![](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V2.svg?style=social)| ⭐️⭐️⭐️ | 
+|2024.05|🔥🔥🔥[YOCO] You Only Cache Once: Decoder-Decoder Architectures for Language Models(@Microsoft)| [[pdf]](https://arxiv.org/pdf/2405.05254) | [[unilm-YOCO]](https://github.com/microsoft/unilm/tree/master/YOCO) ![](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social) |⭐️⭐️⭐️ |  
+|2024.06|🔥🔥[**Mooncake**] Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving(@Moonshot AI) |[[pdf]](https://github.com/kvcache-ai/Mooncake/blob/main/Mooncake-v1.pdf) | [[Mooncake]](https://github.com/kvcache-ai/Mooncake) ![](https://img.shields.io/github/stars/kvcache-ai/Mooncake.svg?style=social)|⭐️⭐️⭐️ |    
+|2024.07|🔥🔥🔥[**FlashAttention-3**] FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision(@TriDao etc) |[[pdf]](https://tridao.me/publications/flash3/flash3.pdf)|[[flash-attention]](https://github.com/Dao-AILab/flash-attention) ![](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social)|⭐️⭐️⭐️ |  
+|2024.07|🔥🔥🔥[**MInference 1.0**] MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention(@Microsoft) |[[pdf]](https://arxiv.org/pdf/2407.02490)|[[MInference 1.0]](https://github.com/microsoft/MInference) ![](https://img.shields.io/github/stars/microsoft/MInference.svg?style=social)|⭐️⭐️⭐️ |
 
 ### LLM KV Cache Compression ([©️back👆🏻](#paperlist))
-<div id="#LLM-KV-Cache-Compression"></div>
+<div id="#KV-Cache-Compression"></div>
 
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
