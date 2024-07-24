@@ -1,7 +1,7 @@
 
 <!-- ![llm-kv-cache](https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/assets/31974251/4d9ab775-f200-471d-a289-e2b14296b633) -->
 
-<div align='center'>
+<!-- <div align='center'>
   <img src=https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg >
   <img src=https://img.shields.io/github/downloads/Zefan-Cai/Awesome-LLM-KV-Cache/total?color=ccf&label=downloads&logo=github&logoColor=lightgrey >
   <img src=https://img.shields.io/github/forks/Zefan-Cai/Awesome-LLM-KV-Cache.svg?style=social >
@@ -9,7 +9,7 @@
   <img src=https://img.shields.io/github/watchers/Zefan-Cai/Awesome-LLM-KV-Cache.svg?style=social >
   <img src=https://img.shields.io/badge/Release-v1.6-brightgreen.svg >
   <img src=https://img.shields.io/badge/License-GPLv3.0-turquoise.svg >
- </div>   
+ </div>    -->
 
 ## 📒Introduction
 Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Codes](#paperlist). This repository is for personal use of learning and classifying the burning KV Cache related papers!
