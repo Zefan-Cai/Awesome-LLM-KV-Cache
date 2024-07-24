@@ -134,6 +134,7 @@ https://arxiv.org/abs/2402.12065
 
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
+|2022.09| In-context Learning and Induction Heads|[[pdf]](https://arxiv.org/abs/2209.11895) || ⭐️⭐️ |
 |2024.01| 🔥Transformers are Multi-State RNNs|[[pdf]](https://arxiv.org/abs/2401.06104) | [[TOVA]](https://github.com/schwartz-lab-NLP/TOVA) ![](https://img.shields.io/github/stars/schwartz-lab-NLP/TOVA.svg?style=social)| ⭐️⭐️ |
 |2024.04| 🔥[**Retrieval Head**] Retrieval Head Mechanistically Explains Long-Context Factuality|[[pdf]](https://arxiv.org/abs/2404.15574) | [[Retrieval_Head]](https://github.com/nightdessert/Retrieval_Head) ![](https://img.shields.io/github/stars/nightdessert/Retrieval_Head.svg?style=social)| ⭐️⭐️⭐️ ||
 |2024.04| 🔥[**Massive Activations**] Massive Activations in Large Language Models|[[pdf]](https://arxiv.org/pdf/2402.17762) | [[Massive Activation]](https://github.com/locuslab/massive-activations) ![](https://img.shields.io/github/stars/locuslab/massive-activations.svg?style=social)| ⭐️⭐️⭐️ ||
