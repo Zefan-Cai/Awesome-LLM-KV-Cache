@@ -88,23 +88,23 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2024.05| 🔥 Reducing Transformer Key-Value Cache Size with Cross-Layer Attention|[[pdf]](https://arxiv.org/abs/2405.12981) | | ⭐️ ||
-|2024.05| 🔥 Layer-Condensed KV Cache for Efficient Inference of Large Language Models|[[pdf]](https://arxiv.org/abs/2405.10637) | [[LCKV]](https://github.com/whyNLP/LCKV) ![](https://img.shields.io/github/stars/whyNLP/LCKV.svg?style=social)| ⭐️⭐️ ||
-|2024.05| 🔥🔥🔥[*MiniCache*] MiniCache: KV Cache Compression in Depth Dimension for Large Language Models|[[pdf]](https://arxiv.org/abs/2405.14366) | | ⭐️⭐️⭐️ ||
-|2024.06| 🔥[*MLKV*] MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer Decoding|[[pdf]](https://arxiv.org/abs/2406.09297) | [[pythia-mlkv]](https://github.com/zaydzuhri/pythia-mlkv) ![](https://img.shields.io/github/stars/zaydzuhri/pythia-mlkv.svg?style=social)| ⭐️⭐️ ||
+|2024.05| 🔥 Layer-Condensed KV Cache for Efficient Inference of Large Language Models|[[pdf]](https://arxiv.org/abs/2405.10637) | [[**LCKV**]](https://github.com/whyNLP/LCKV) ![](https://img.shields.io/github/stars/whyNLP/LCKV.svg?style=social)| ⭐️⭐️ ||
+|2024.05| 🔥🔥🔥[**MiniCache**] MiniCache: KV Cache Compression in Depth Dimension for Large Language Models|[[pdf]](https://arxiv.org/abs/2405.14366) | | ⭐️⭐️⭐️ ||
+|2024.06| 🔥[**MLKV**] MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer Decoding|[[pdf]](https://arxiv.org/abs/2406.09297) | [[pythia-mlkv]](https://github.com/zaydzuhri/pythia-mlkv) ![](https://img.shields.io/github/stars/zaydzuhri/pythia-mlkv.svg?style=social)| ⭐️⭐️ ||
 
 ### KV Cache Quantization ([©️back👆🏻](#paperlist))  
 <div id="KV-Cache-Quantization"></div>  
 
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|2023.03| 🔥[*GEAR*] GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM|[[pdf]](https://arxiv.org/abs/203.05527) | [[GEAR]](https://github.com/opengear-project/GEAR) ![](https://img.shields.io/github/stars/opengear-project/GEAR.svg?style=social)| ⭐️⭐️ ||
-|2024.01| 🔥🔥[*KVQuant*] KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization|[[pdf]](https://arxiv.org/abs/2401.18079) | [[KVQuant]](https://github.com/SqueezeAILab/KVQuant) ![](https://img.shields.io/github/stars/SqueezeAILab/KVQuant.svg?style=social)| ⭐️⭐️ |Make all KV cache quantized|
+|2023.03| 🔥[**GEAR**] GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM|[[pdf]](https://arxiv.org/abs/203.05527) | [[GEAR]](https://github.com/opengear-project/GEAR) ![](https://img.shields.io/github/stars/opengear-project/GEAR.svg?style=social)| ⭐️⭐️ ||
+|2024.01| 🔥🔥[**KVQuant**] KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization|[[pdf]](https://arxiv.org/abs/2401.18079) | [[KVQuant]](https://github.com/SqueezeAILab/KVQuant) ![](https://img.shields.io/github/stars/SqueezeAILab/KVQuant.svg?style=social)| ⭐️⭐️ |Make all KV cache quantized|
 |2024.02| [No Token Left Behind] No Token Left Behind: Reliable KV Cache Compression via Importance-Aware Mixed Precision Quantization|[[pdf]](https://arxiv.org/abs/2402.18096) | | ⭐️⭐️⭐️ ||
-|2024.02| [*KIVI*] KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache|[[pdf]](https://arxiv.org/abs/2402.02750) | [[KIVI]](https://github.com/jy-yuan/KIVI) ![](https://img.shields.io/github/stars/jy-yuan/KIVI.svg?style=social)| ⭐️⭐️ ||
-|2024.03| [*QAQ*] QAQ: Quality Adaptive Quantization for LLM KV Cache|[[pdf]](https://arxiv.org/abs/2403.04643) | [[QAQ-KVCacheQuantization]](https://github.com/ClubieDong/QAQ-KVCacheQuantization) ![](https://img.shields.io/github/stars/ClubieDong/QAQ-KVCacheQuantization.svg?style=social)| ⭐️ |attention-based KV cache quantized|
-|2024.05| [*ZipCache*] ZipCache: Accurate and Efficient KV Cache Quantization with Salient Token Identification|[[pdf]](https://www.arxiv.org/abs/2405.14256) | | ⭐️ ||
+|2024.02| [**KIVI**] KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache|[[pdf]](https://arxiv.org/abs/2402.02750) | [[KIVI]](https://github.com/jy-yuan/KIVI) ![](https://img.shields.io/github/stars/jy-yuan/KIVI.svg?style=social)| ⭐️⭐️ ||
+|2024.03| [**QAQ**] QAQ: Quality Adaptive Quantization for LLM KV Cache|[[pdf]](https://arxiv.org/abs/2403.04643) | [[QAQ-KVCacheQuantization]](https://github.com/ClubieDong/QAQ-KVCacheQuantization) ![](https://img.shields.io/github/stars/ClubieDong/QAQ-KVCacheQuantization.svg?style=social)| ⭐️ |attention-based KV cache quantized|
+|2024.05| [**ZipCache**] ZipCache: Accurate and Efficient KV Cache Quantization with Salient Token Identification|[[pdf]](https://www.arxiv.org/abs/2405.14256) | | ⭐️ ||
 |2024.05|  Unlocking Data-free Low-bit Quantization with Matrix Decomposition for KV Cache Compression|[[pdf]](https://arxiv.org/abs/2405.12591) | | ⭐️ ||
-|2024.05| [*SKVQ*] SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models|[[pdf]](https://arxiv.org/abs/2405.06219) | [[SKVQ]](https://github.com/cat538/SKVQ) ![](https://img.shields.io/github/stars/cat538/SKVQ.svg?style=social)| ⭐️ |
+|2024.05| [**SKVQ**] SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models|[[pdf]](https://arxiv.org/abs/2405.06219) | [[SKVQ]](https://github.com/cat538/SKVQ) ![](https://img.shields.io/github/stars/cat538/SKVQ.svg?style=social)| ⭐️ |
 |2024.07| [**PQCache**] PQCache: Product Quantization-based KVCache for Long Context LLM Inference|[[pdf]](https://arxiv.org/abs/2407.12820) | | ⭐️ ||
 
 
