@@ -18,18 +18,29 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 
 
 ## 📖Contents 
-* 📖[KV Cache Compression](#KV-Cache-Compression)🔥🔥🔥
-* 📖[KV cache merge](#KV-cache-merge)🔥🔥🔥
-* 📖[Budget Allocation](#Budget-Allocation)🔥🔥🔥
-* 📖[Cross-Layer KV Cache Utilization](#Cross-Layer-KV-Cache-Utilization)🔥🔥🔥
-* 📖[KV Cache Quantization](#KV-cache-quantization)🔥🔥🔥
-* 📖[Low rank kv cache decomposition](#Low-rank-kv-cache-decomposition)🔥🔥🔥
-* 📖[Observation](#Observation)🔥🔥🔥
-* 📖[Evaluation](#Evaluation)🔥🔥🔥
+<div id="paperlist"></div>
 
+* 📖[Trending Inference Topics](#Trending-Inference-Topics)🔥🔥🔥
+* 📖[KV Cache Compression](#LLM-KV-Cache-Compression)🔥🔥
+* 📖[KV Cache Merge](#KV-Cache-Merge)🔥🔥
+* 📖[Budget Allocation](#Budget-Allocation)🔥
+* 📖[Cross-Layer KV Cache Utilization](#Cross-Layer-KV-Cache-Utilization)🔥
+* 📖[KV Cache Quantization](#KV-Cache-Quantization)🔥
+* 📖[Low-Rank KV Cache Decomposition](#Low-Rank-KV-Cache-Decomposition)🔥
+* 📖[Observation](#Observation)🔥🔥
+* 📖[Evaluation](#Evaluation)🔥
+
+### 📖Trending Inference Topics ([©️back👆🏻](#paperlist))  
+<div id="Trending-Inference-Topics"></div>  
+
+|2024.05| 🔥🔥🔥[DeepSeek-V2] DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model(@DeepSeek-AI)|[[pdf]](https://arxiv.org/pdf/2405.04434) | [[DeepSeek-V2]](https://github.com/deepseek-ai/DeepSeek-V2) ![](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V2.svg?style=social)| ⭐️⭐️ | 
+|2024.05|🔥🔥[YOCO] You Only Cache Once: Decoder-Decoder Architectures for Language Models(@Microsoft)| [[pdf]](https://arxiv.org/pdf/2405.05254) | [[unilm-YOCO]](https://github.com/microsoft/unilm/tree/master/YOCO) ![](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social) |⭐️⭐️ |  
+|2024.06|🔥[**Mooncake**] Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving(@Moonshot AI) |[[pdf]](https://github.com/kvcache-ai/Mooncake/blob/main/Mooncake-v1.pdf) | [[Mooncake]](https://github.com/kvcache-ai/Mooncake) ![](https://img.shields.io/github/stars/kvcache-ai/Mooncake.svg?style=social)|⭐️⭐️ |    
+|2024.07|🔥🔥[**FlashAttention-3**] FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision(@TriDao etc) |[[pdf]](https://tridao.me/publications/flash3/flash3.pdf)|[[flash-attention]](https://github.com/Dao-AILab/flash-attention) ![](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social)|⭐️⭐️ |  
+|2024.07|🔥🔥[**MInference 1.0**] MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention(@Microsoft) |[[pdf]](https://arxiv.org/pdf/2407.02490)|[[MInference 1.0]](https://github.com/microsoft/MInference) ![](https://img.shields.io/github/stars/microsoft/MInference.svg?style=social)|⭐️⭐️ |
 
 ### LLM KV Cache Compression ([©️back👆🏻](#paperlist))
-<div id="KV-Cache-Compression"></div>
+<div id="#LLM-KV-Cache-Compression"></div>
 
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -41,17 +52,16 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |2024.06| 🔥A Simple and Effective L2 Norm-Based Strategy for KV Cache Compression|[[pdf]](https://arxiv.org/abs/2406.11430) | | ⭐️ |L2 Norm is better than attention as a metrics||
 |2024.07| Efficient Sparse Attention needs Adaptive Token Release|[[pdf]](https://arxiv.org/abs/2407.02328) | | ⭐️ ||
 |2024.03| [**ALISA**] ALISA: Accelerating Large Language Model Inference via Sparsity-Aware KV Caching|[[pdf]](https://arxiv.org/abs/2403.17312) | | ⭐️ |
+|2024.03| 🔥🔥🔥[**FastV**] Code for paper: An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models|[[pdf]](https://arxiv.org/abs/2403.06764) | [[EasyKV]](https://github.com/pkunlp-icler/FastV) ![](https://img.shields.io/github/stars/pkunlp-icler/FastV.svg?style=social)| ⭐️⭐️⭐️ |
 |2024.03| [**Keyformer**] Keyformer: KV Cache Reduction through Key Tokens Selection for Efficient Generative Inference|[[pdf]](https://arxiv.org/abs/2403.09054) | [[keyformer-llm]](https://github.com/d-matrix-ai/keyformer-llm) ![](https://img.shields.io/github/stars/d-matrix-ai/keyformer-llm.svg?style=social)| ⭐️⭐️ |
 |2024.06| 🔥 Attention Score is not All You Need for Token Importance Indicator in KV Cache Reduction: Value Also Matters|[[pdf]](https://arxiv.org/abs/2406.12335) | | ⭐️ |
 |2024.06|  On the Efficacy of Eviction Policy for Key-Value Constrained Generative Language Model Inference|[[pdf]](https://arxiv.org/abs/2406.12335) | [[EasyKV]](https://github.com/DRSY/EasyKV) ![](https://img.shields.io/github/stars/DRSY/EasyKV.svg?style=social)| ⭐️ |
 
-### VLM KV Cache Compression ([©️back👆🏻](#paperlist))
-<div id="KV-Cache-Compression"></div>
 
-|2024.06| 🔥🔥🔥[**FastV**] Code for paper: An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models|[[pdf]](https://arxiv.org/abs/2403.06764) | [[EasyKV]](https://github.com/pkunlp-icler/FastV) ![](https://img.shields.io/github/stars/pkunlp-icler/FastV.svg?style=social)| ⭐️⭐️⭐️ |
 
-### KV cache merge ([©️back👆🏻](#paperlist))
-<div id="KV-cache-merge"></div>
+
+### KV Cache Merge ([©️back👆🏻](#paperlist))
+<div id="KV-Cache-Merge"></div>
 
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -61,13 +71,14 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |2024.05| 🔥🔥 You Only Cache Once: Decoder-Decoder Architectures for Language Models|[[pdf]](https://arxiv.org/abs/2405.05254) | [[unilm]](https://github.com/microsoft/unilm) ![](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social)| ⭐️⭐️ |
 
 ### Budget Allocation ([©️back👆🏻](#paperlist))
-<div id="Budget-Allocationn"></div>
+<div id="Budget-Allocation"></div>
 
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2024.05| 🔥[**PyramidInfer**] PyramidInfer: Pyramid KV Cache Compression for High-throughput LLM Inference|[[pdf]](https://arxiv.org/abs/2405.12532) | [[PyramidInfer]](https://github.com/mutonix/pyramidinfer) ![](https://img.shields.io/github/stars/mutonix/pyramidinfer.svg?style=social)| ⭐️⭐️⭐️ |Layer-wise budget allocation|
 |2024.06| 🔥[**PyramidKV**] PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling|[[pdf]](https://arxiv.org/abs/2406.02069) | [[PyramidKV]](https://github.com/Zefan-Cai/PyramidKV) ![](https://img.shields.io/github/stars/Zefan-Cai/PyramidKV.svg?style=social)| ⭐️⭐️⭐️ |Layer-wise budget allocation|
 |2024.07| 🔥[**Ada-KV**] Ada-KV: Optimizing KV Cache Eviction by Adaptive Budget Allocation for Efficient LLM Inference|[[pdf]](https://arxiv.org/abs/2407.11550) | | ⭐️⭐️⭐️ |Head-wise budget allocation|
+|2024.07|  RazorAttention: Efficient KV Cache Compression Through Retrieval Heads|[[pdf]](https://arxiv.org/pdf/2407.15891) | | ⭐️ |
 
 ### Cross-Layer KV Cache Utilization ([©️back👆🏻](#paperlist))
 <div id="Cross-Layer-KV-Cache-Utilization"></div>
@@ -80,7 +91,7 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |2024.06| 🔥[*MLKV*] MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer Decoding|[[pdf]](https://arxiv.org/abs/2406.09297) | [[pythia-mlkv]](https://github.com/zaydzuhri/pythia-mlkv) ![](https://img.shields.io/github/stars/zaydzuhri/pythia-mlkv.svg?style=social)| ⭐️⭐️ ||
 
 ### KV Cache Quantization ([©️back👆🏻](#paperlist))  
-<div id="KV-cache-quantization"></div>  
+<div id="KV-Cache-Quantization"></div>  
 
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -103,8 +114,8 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2024.07| 🔥[Benchmark] KV Cache Compression, But What Must We Give in Return? A Comprehensive Benchmark of Long Context Capable Approaches|[[pdf]](https://arxiv.org/abs/2407.01527) | | ⭐️ ||
 
-### Low rank kv cache decomposition ([©️back👆🏻](#paperlist))  
-<div id="Low-rank-kv-cache-decomposition"></div>  
+### Low Rank KV Cache Decomposition ([©️back👆🏻](#paperlist))  
+<div id="Low-Rank-KV-Cache-Decomposition"></div>  
 
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -119,6 +130,9 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2024.01| 🔥Transformers are Multi-State RNNs|[[pdf]](https://arxiv.org/abs/2401.06104) | [[TOVA]](https://github.com/schwartz-lab-NLP/TOVA) ![](https://img.shields.io/github/stars/schwartz-lab-NLP/TOVA.svg?style=social)| ⭐️⭐️ |
 |2024.04| 🔥[**Retrieval Head**] Retrieval Head Mechanistically Explains Long-Context Factuality|[[pdf]](https://arxiv.org/abs/2404.15574) | [[Retrieval_Head]](https://github.com/nightdessert/Retrieval_Head) ![](https://img.shields.io/github/stars/nightdessert/Retrieval_Head.svg?style=social)| ⭐️⭐️⭐️ ||
+|2024.04| 🔥[**Massive Activations**] Massive Activations in Large Language Models|[[pdf]](https://arxiv.org/pdf/2402.17762) | [[Massive Activation]](https://github.com/locuslab/massive-activations) ![](https://img.shields.io/github/stars/locuslab/massive-activations.svg?style=social)| ⭐️⭐️⭐️ ||
+
+
 
 ## ©️License  
 
