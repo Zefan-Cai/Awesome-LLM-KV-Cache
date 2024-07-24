@@ -33,6 +33,8 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 ### 📖Trending Inference Topics ([©️back👆🏻](#paperlist))  
 <div id="Trending-Inference-Topics"></div>  
 
+|Date|Title|Paper|Code|Recom|Comment|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 |2024.05| 🔥🔥🔥[DeepSeek-V2] DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model(@DeepSeek-AI)|[[pdf]](https://arxiv.org/pdf/2405.04434) | [[DeepSeek-V2]](https://github.com/deepseek-ai/DeepSeek-V2) ![](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V2.svg?style=social)| ⭐️⭐️ | 
 |2024.05|🔥🔥[YOCO] You Only Cache Once: Decoder-Decoder Architectures for Language Models(@Microsoft)| [[pdf]](https://arxiv.org/pdf/2405.05254) | [[unilm-YOCO]](https://github.com/microsoft/unilm/tree/master/YOCO) ![](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social) |⭐️⭐️ |  
 |2024.06|🔥[**Mooncake**] Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving(@Moonshot AI) |[[pdf]](https://github.com/kvcache-ai/Mooncake/blob/main/Mooncake-v1.pdf) | [[Mooncake]](https://github.com/kvcache-ai/Mooncake) ![](https://img.shields.io/github/stars/kvcache-ai/Mooncake.svg?style=social)|⭐️⭐️ |    
