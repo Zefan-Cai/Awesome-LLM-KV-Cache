@@ -71,11 +71,12 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|2024.06| 🔥🔥[**D2O**] D2O: Dynamic Discriminative Operations for Efficient Generative Inference of Large Language Models|[[pdf]](https://arxiv.org/abs/2406.13035) | | ⭐️⭐️⭐️ |
-|2024.07| 🔥 [**KVMerger**]Model Tells You Where to Merge: Adaptive KV Cache Merging for LLMs on Long-Context Tasks|[[pdf]](https://arxiv.org/abs/2407.08454) | | ⭐️⭐️⭐️ |
+|2023.10| 🔥🔥[**CacheBlend**] Fast Large Language Model Serving for RAG with Cached Knowledge Fusion|[[pdf]](https://arxiv.org/abs/2405.16444) | [[LMCache]](https://github.com/LMCache/LMCache) ![](https://img.shields.io/github/stars/LMCache/LMCache.svg?style=social) | ⭐️⭐️⭐️ |Selective update when merging KV caches|
+|2023.12| 🔥 Compressed Context Memory For Online Language Model Interaction|[[pdf]](https://arxiv.org/pdf/2312.03414) | [[ContextMemory]](https://github.com/snu-mllab/Context-Memory) ![](https://img.shields.io/github/stars/snu-mllab/Context-Memory.svg?style=social) | ⭐️⭐️⭐️ |Finetuning language models to recurrently compress KV caches|
 |2024.01| [**CaM**] CaM: Cache Merging for Memory-efficient LLMs Inference|[[pdf]](https://openreview.net/forum?id=LCTmppB165) | [[cam]](https://github.com/zyxxmu/cam) ![](https://img.shields.io/github/stars/zyxxmu/cam.svg?style=social)| ⭐️⭐️ |
 |2024.05| 🔥🔥 You Only Cache Once: Decoder-Decoder Architectures for Language Models|[[pdf]](https://arxiv.org/abs/2405.05254) | [[unilm]](https://github.com/microsoft/unilm) ![](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social)| ⭐️⭐️ |
-|2023.10| 🔥🔥[**CacheBlend**] Fast Large Language Model Serving for RAG with Cached Knowledge Fusion|[[pdf]](https://arxiv.org/abs/2405.16444) | [[LMCache]](https://github.com/LMCache/LMCache) ![](https://img.shields.io/github/stars/LMCache/LMCache.svg?style=social) | ⭐️⭐️⭐️ |Selective update when merging KV caches|
+|2024.06| 🔥🔥[**D2O**] D2O: Dynamic Discriminative Operations for Efficient Generative Inference of Large Language Models|[[pdf]](https://arxiv.org/abs/2406.13035) | | ⭐️⭐️⭐️ |
+|2024.07| 🔥 [**KVMerger**]Model Tells You Where to Merge: Adaptive KV Cache Merging for LLMs on Long-Context Tasks|[[pdf]](https://arxiv.org/abs/2407.08454) | | ⭐️⭐️⭐️ |
 
 ### Budget Allocation ([©️back👆🏻](#paperlist))
 <div id="Budget-Allocation"></div>
