@@ -62,7 +62,7 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |2024.03| [**Keyformer**] Keyformer: KV Cache Reduction through Key Tokens Selection for Efficient Generative Inference|[[pdf]](https://arxiv.org/abs/2403.09054) | [[keyformer-llm]](https://github.com/d-matrix-ai/keyformer-llm) ![](https://img.shields.io/github/stars/d-matrix-ai/keyformer-llm.svg?style=social)| ⭐️⭐️ |
 |2024.06| Effectively Compress KV Heads for LLM |[[pdf]](https://arxiv.org/abs/2406.07056) | | ⭐️ |
 |2024.06| 🔥 Attention Score is not All You Need for Token Importance Indicator in KV Cache Reduction: Value Also Matters|[[pdf]](https://arxiv.org/abs/2406.12335) | | ⭐️ |
-|2024.06|  On the Efficacy of Eviction Policy for Key-Value Constrained Generative Language Model Inference|[[pdf]](https://arxiv.org/abs/2406.12335) | [[EasyKV]](https://github.com/DRSY/EasyKV) ![](https://img.shields.io/github/stars/DRSY/EasyKV.svg?style=social)| ⭐️ |
+|2024.06|  On the Efficacy of Eviction Policy for Key-Value Constrained Generative Language Model Inference|[[pdf]](https://arxiv.org/abs/2402.06262) | [[EasyKV]](https://github.com/DRSY/EasyKV) ![](https://img.shields.io/github/stars/DRSY/EasyKV.svg?style=social)| ⭐️ |
 
 
 
