@@ -71,6 +71,7 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 
 |Date|Title|Paper|Code|Recom|Comment|
 |:---:|:---:|:---:|:---:|:---:|:---:|
+|2025.02| 🔥[**CacheCraft**] Cache-Craft: Managing Chunk-Caches for Efficient Retrieval-Augmented Generation |[[pdf]](https://www.arxiv.org/pdf/2502.15734) | | |Reducing Redundant KV Computation in RAG via Chunked Caching|
 |2023.10| 🔥🔥[**CacheBlend**] Fast Large Language Model Serving for RAG with Cached Knowledge Fusion|[[pdf]](https://arxiv.org/abs/2405.16444) | [[LMCache]](https://github.com/LMCache/LMCache) ![](https://img.shields.io/github/stars/LMCache/LMCache.svg?style=social) | ⭐️⭐️⭐️ |Selective update when merging KV caches|
 |2023.12| 🔥 Compressed Context Memory For Online Language Model Interaction|[[pdf]](https://arxiv.org/pdf/2312.03414) | [[ContextMemory]](https://github.com/snu-mllab/Context-Memory) ![](https://img.shields.io/github/stars/snu-mllab/Context-Memory.svg?style=social) | ⭐️⭐️⭐️ |Finetuning LLMs to recurrently compress KV caches|
 |2024.01| [**CaM**] CaM: Cache Merging for Memory-efficient LLMs Inference|[[pdf]](https://openreview.net/forum?id=LCTmppB165) | [[cam]](https://github.com/zyxxmu/cam) ![](https://img.shields.io/github/stars/zyxxmu/cam.svg?style=social)| ⭐️⭐️ |
