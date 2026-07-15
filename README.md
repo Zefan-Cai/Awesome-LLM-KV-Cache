@@ -164,6 +164,7 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2024.06|🔥🔥[**Mooncake**] Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving(@Moonshot AI) |[[pdf]](https://github.com/kvcache-ai/Mooncake/blob/main/Mooncake-v1.pdf) | [[Mooncake]](https://github.com/kvcache-ai/Mooncake) ![](https://img.shields.io/github/stars/kvcache-ai/Mooncake.svg?style=social)|⭐️⭐️⭐️ |    
 |2024.02| MemServe: Context Caching for Disaggregated LLM Serving with Elastic Memory Pool |[[pdf]](https://arxiv.org/pdf/2406.17565) | | ⭐️ ||
+|2026.07| [**KV Cache Store**] Hosted KV-cache artifact registry plus open-source Rust CLI for precomputing, verifying, quantizing, and reusing KV caches across inference runs. | - | [[kvcachestore/kvcdn]](https://github.com/kvcachestore/kvcdn) ![](https://img.shields.io/github/stars/kvcachestore/kvcdn.svg?style=social)| ⭐️⭐️ | Reusable KV-cache artifacts for RAG and long-context prompts; TTFT -34%, throughput +52% in local GPT-2 benchmark. |
 
 ### Others ([©️back👆🏻](#paperlist))  
 <div id="Others"></div>  
