@@ -45,6 +45,7 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |2024.07|🔥🔥🔥[**MInference 1.0**] MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention(@Microsoft) |[[pdf]](https://arxiv.org/pdf/2407.02490)|[[MInference 1.0]](https://github.com/microsoft/MInference) ![](https://img.shields.io/github/stars/microsoft/MInference.svg?style=social)|⭐️⭐️⭐️ |
 
 ### LLM KV Cache Compression ([©️back👆🏻](#paperlist))
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — capture the real LLM request/response stream and replay it offline.
 <div id="#KV-Cache-Compression"></div>
 
 |Date|Title|Paper|Code|Recom|Comment|
