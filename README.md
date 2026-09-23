@@ -126,6 +126,7 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |2024.05|  Unlocking Data-free Low-bit Quantization with Matrix Decomposition for KV Cache Compression|[[pdf]](https://arxiv.org/abs/2405.12591) | | ⭐️ ||
 |2024.05| [**SKVQ**] SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models|[[pdf]](https://arxiv.org/abs/2405.06219) | [[SKVQ]](https://github.com/cat538/SKVQ) ![](https://img.shields.io/github/stars/cat538/SKVQ.svg?style=social)| ⭐️ |
 |2024.07| [**PQCache**] PQCache: Product Quantization-based KVCache for Long Context LLM Inference|[[pdf]](https://arxiv.org/abs/2407.12820) | | ⭐️ ||
+|2026.09| Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches |[[pdf]](https://arxiv.org/abs/2609.17652) | [fathom](https://github.com/vivekkalyanarangan30/fathom) | | Per-query, per-channel read depth over a bit-plane 4-bit K store held in host memory |
 
 
 ### Evaluation ([©️back👆🏻](#paperlist))  
