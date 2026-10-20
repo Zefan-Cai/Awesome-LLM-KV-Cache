@@ -90,6 +90,7 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |2024.06| 🔥[**PyramidKV**] PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling|[[pdf]](https://arxiv.org/abs/2406.02069) | [[PyramidKV]](https://github.com/Zefan-Cai/PyramidKV) ![](https://img.shields.io/github/stars/Zefan-Cai/PyramidKV.svg?style=social)| ⭐️⭐️⭐️ |Layer-wise budget allocation|
 |2024.07| 🔥[**Ada-KV**] Ada-KV: Optimizing KV Cache Eviction by Adaptive Budget Allocation for Efficient LLM Inference|[[pdf]](https://arxiv.org/abs/2407.11550) | | ⭐️⭐️⭐️ |Head-wise budget allocation|
 |2024.07|  RazorAttention: Efficient KV Cache Compression Through Retrieval Heads|[[pdf]](https://arxiv.org/pdf/2407.15891) | | ⭐️ |
+|2026.10| 🔥[**MOSAIC**] MOSAIC: Multi-Objective Search for Allocating Inference Cache Across LLM Decoder Layers|[[pdf]](https://arxiv.org/abs/2610.25431) | |  |Per-layer budget allocation via multi-objective NAS|
 
 ### Query-Aware KV Retrieval ([©️back👆🏻](#paperlist))
 <div id="Query-Aware-KV-Retrieval"></div>
