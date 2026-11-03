@@ -65,6 +65,7 @@ Awesome-LLM-KV-Cache: A curated list of [📙Awesome LLM KV Cache Papers with Co
 |2024.06| 🔥 Attention Score is not All You Need for Token Importance Indicator in KV Cache Reduction: Value Also Matters|[[pdf]](https://arxiv.org/abs/2406.12335) | | ⭐️ |
 |2024.06|  On the Efficacy of Eviction Policy for Key-Value Constrained Generative Language Model Inference|[[pdf]](https://arxiv.org/abs/2402.06262) | [[EasyKV]](https://github.com/DRSY/EasyKV) ![](https://img.shields.io/github/stars/DRSY/EasyKV.svg?style=social)| ⭐️ |
 |2024.06| [**REFORM**] Compress, Gather, and Recompute: REFORMing Long-Context Processing in Transformers |[[pdf]](https://arxiv.org/abs/2506.01215) | | ⭐️ |
+|2026.11|🔥🔥[**HyperCache AI**] HyperCache AI: Runtime KV-Cache Compression (-58.2% VRAM, +30% Decoding Speed) with 100% Verbatim Needle-in-a-Haystack Recall|[[PyPI]](https://pypi.org/project/hypercache-ai/)|[[HyperCache-AI]](https://github.com/WalWal1977/HyperCache-AI) ![](https://img.shields.io/github/stars/WalWal1977/HyperCache-AI.svg?style=social)|⭐️⭐️⭐️|Zero-retraining block-resonance KV compression + RAG vector compression|
 
 
 
